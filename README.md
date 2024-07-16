@@ -5,7 +5,7 @@ Steps To Execute TestNG Tests with Maven
 1. git clone https://github.com/ManojKumarPrasanna/TechnicalChallenge_Orcale.git
 2. cd TechnicalChallenge_Orcale
 3. mvn clean
-4. mvn test 
+4. mvn test
   
 Project Overview 
 1. base
@@ -18,3 +18,5 @@ ReportGenerator.java - For calculating uniqueCustomerCountByContract, uniqueCust
 Application.java - Contains Main method with Input String;
 ExcelDataIntegrationTest.java - TestNG class with few test methods for CSV file input;
 ReportGeneratorTest.java - TestNG class with few test methods for Input String;
+
+Test Plan Document - TestPlanforTechnicalChallenge_Oracle.docx
