@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-16T05:29:25Z" name="Default suite" finished-at="2024-07-16T05:29:25Z" duration-ms="69">
+    <groups>
+    </groups>
+    <test started-at="2024-07-16T05:29:25Z" name="Default test" finished-at="2024-07-16T05:29:25Z" duration-ms="69">
+      <class name="application_tests.ReportGeneratorTest">
+        <test-method signature="testAverageBuildDurationByGeozone()[pri:0, instance:application_tests.ReportGeneratorTest@47e2e487]" started-at="2024-07-16T05:29:25Z" name="testAverageBuildDurationByGeozone" finished-at="2024-07-16T05:29:25Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAverageBuildDurationByGeozone -->
+        <test-method signature="testAverageBuildDurationByGeozone_duplicateEntries()[pri:0, instance:application_tests.ReportGeneratorTest@47e2e487]" started-at="2024-07-16T05:29:25Z" name="testAverageBuildDurationByGeozone_duplicateEntries" finished-at="2024-07-16T05:29:25Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAverageBuildDurationByGeozone_duplicateEntries -->
+        <test-method signature="testAverageBuildDurationByGeozone_emptyEntries()[pri:0, instance:application_tests.ReportGeneratorTest@47e2e487]" started-at="2024-07-16T05:29:25Z" name="testAverageBuildDurationByGeozone_emptyEntries" finished-at="2024-07-16T05:29:25Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAverageBuildDurationByGeozone_emptyEntries -->
+        <test-method signature="testAverageBuildDurationByGeozone_singleEntry()[pri:0, instance:application_tests.ReportGeneratorTest@47e2e487]" started-at="2024-07-16T05:29:25Z" name="testAverageBuildDurationByGeozone_singleEntry" finished-at="2024-07-16T05:29:25Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAverageBuildDurationByGeozone_singleEntry -->
+        <test-method signature="testAverageBuildDurationByGeozone_zeroDuration()[pri:0, instance:application_tests.ReportGeneratorTest@47e2e487]" started-at="2024-07-16T05:29:25Z" name="testAverageBuildDurationByGeozone_zeroDuration" finished-at="2024-07-16T05:29:25Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAverageBuildDurationByGeozone_zeroDuration -->
+        <test-method signature="testUniqueCustomerCountByContract()[pri:0, instance:application_tests.ReportGeneratorTest@47e2e487]" started-at="2024-07-16T05:29:25Z" name="testUniqueCustomerCountByContract" finished-at="2024-07-16T05:29:25Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUniqueCustomerCountByContract -->
+        <test-method signature="testUniqueCustomerCountByContract_duplicateEntries()[pri:0, instance:application_tests.ReportGeneratorTest@47e2e487]" started-at="2024-07-16T05:29:25Z" name="testUniqueCustomerCountByContract_duplicateEntries" finished-at="2024-07-16T05:29:25Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUniqueCustomerCountByContract_duplicateEntries -->
+        <test-method signature="testUniqueCustomerCountByContract_emptyEntries()[pri:0, instance:application_tests.ReportGeneratorTest@47e2e487]" started-at="2024-07-16T05:29:25Z" name="testUniqueCustomerCountByContract_emptyEntries" finished-at="2024-07-16T05:29:25Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUniqueCustomerCountByContract_emptyEntries -->
+        <test-method signature="testUniqueCustomerCountByContract_singleEntry()[pri:0, instance:application_tests.ReportGeneratorTest@47e2e487]" started-at="2024-07-16T05:29:25Z" name="testUniqueCustomerCountByContract_singleEntry" finished-at="2024-07-16T05:29:25Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUniqueCustomerCountByContract_singleEntry -->
+        <test-method signature="testUniqueCustomerCountByGeozone()[pri:0, instance:application_tests.ReportGeneratorTest@47e2e487]" started-at="2024-07-16T05:29:25Z" name="testUniqueCustomerCountByGeozone" finished-at="2024-07-16T05:29:25Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUniqueCustomerCountByGeozone -->
+        <test-method signature="testUniqueCustomerCountByGeozone_duplicateEntries()[pri:0, instance:application_tests.ReportGeneratorTest@47e2e487]" started-at="2024-07-16T05:29:25Z" name="testUniqueCustomerCountByGeozone_duplicateEntries" finished-at="2024-07-16T05:29:25Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUniqueCustomerCountByGeozone_duplicateEntries -->
+        <test-method signature="testUniqueCustomerCountByGeozone_emptyEntries()[pri:0, instance:application_tests.ReportGeneratorTest@47e2e487]" started-at="2024-07-16T05:29:25Z" name="testUniqueCustomerCountByGeozone_emptyEntries" finished-at="2024-07-16T05:29:25Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUniqueCustomerCountByGeozone_emptyEntries -->
+        <test-method signature="testUniqueCustomerCountByGeozone_singleEntry()[pri:0, instance:application_tests.ReportGeneratorTest@47e2e487]" started-at="2024-07-16T05:29:25Z" name="testUniqueCustomerCountByGeozone_singleEntry" finished-at="2024-07-16T05:29:25Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUniqueCustomerCountByGeozone_singleEntry -->
+        <test-method signature="testUniqueCustomersByGeozone()[pri:0, instance:application_tests.ReportGeneratorTest@47e2e487]" started-at="2024-07-16T05:29:25Z" name="testUniqueCustomersByGeozone" finished-at="2024-07-16T05:29:25Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUniqueCustomersByGeozone -->
+        <test-method signature="testUniqueCustomersByGeozone_duplicateEntries()[pri:0, instance:application_tests.ReportGeneratorTest@47e2e487]" started-at="2024-07-16T05:29:25Z" name="testUniqueCustomersByGeozone_duplicateEntries" finished-at="2024-07-16T05:29:25Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUniqueCustomersByGeozone_duplicateEntries -->
+        <test-method signature="testUniqueCustomersByGeozone_emptyEntries()[pri:0, instance:application_tests.ReportGeneratorTest@47e2e487]" started-at="2024-07-16T05:29:25Z" name="testUniqueCustomersByGeozone_emptyEntries" finished-at="2024-07-16T05:29:25Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUniqueCustomersByGeozone_emptyEntries -->
+        <test-method signature="testUniqueCustomersByGeozone_singleEntry()[pri:0, instance:application_tests.ReportGeneratorTest@47e2e487]" started-at="2024-07-16T05:29:25Z" name="testUniqueCustomersByGeozone_singleEntry" finished-at="2024-07-16T05:29:25Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUniqueCustomersByGeozone_singleEntry -->
+      </class> <!-- application_tests.ReportGeneratorTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 16 11:29:05 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (53 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='application_tests.ReportGeneratorTest.testAverageBuildDurationByGeozone()'><b>testAverageBuildDurationByGeozone</b><br>Test class: application_tests.ReportGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>application_tests.ReportGeneratorTest@1cab0bfb</td></tr>
+<tr>
+<td title='application_tests.ExcelDataIntegrationTest.testAverageBuildDurationByGeozone()'><b>testAverageBuildDurationByGeozone</b><br>Test class: application_tests.ExcelDataIntegrationTest</td>
+<td></td>
+<td>0</td>
+<td>application_tests.ExcelDataIntegrationTest@5e955596</td></tr>
+<tr>
+<td title='application_tests.ReportGeneratorTest.testAverageBuildDurationByGeozone_duplicateEntries()'><b>testAverageBuildDurationByGeozone_duplicateEntries</b><br>Test class: application_tests.ReportGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>application_tests.ReportGeneratorTest@1cab0bfb</td></tr>
+<tr>
+<td title='application_tests.ReportGeneratorTest.testAverageBuildDurationByGeozone_emptyEntries()'><b>testAverageBuildDurationByGeozone_emptyEntries</b><br>Test class: application_tests.ReportGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>application_tests.ReportGeneratorTest@1cab0bfb</td></tr>
+<tr>
+<td title='application_tests.ReportGeneratorTest.testAverageBuildDurationByGeozone_singleEntry()'><b>testAverageBuildDurationByGeozone_singleEntry</b><br>Test class: application_tests.ReportGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>application_tests.ReportGeneratorTest@1cab0bfb</td></tr>
+<tr>
+<td title='application_tests.ReportGeneratorTest.testAverageBuildDurationByGeozone_zeroDuration()'><b>testAverageBuildDurationByGeozone_zeroDuration</b><br>Test class: application_tests.ReportGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>application_tests.ReportGeneratorTest@1cab0bfb</td></tr>
+<tr>
+<td title='application_tests.ExcelDataIntegrationTest.testDuplicateEntries()'><b>testDuplicateEntries</b><br>Test class: application_tests.ExcelDataIntegrationTest</td>
+<td></td>
+<td>0</td>
+<td>application_tests.ExcelDataIntegrationTest@5e955596</td></tr>
+<tr>
+<td title='application_tests.ExcelDataIntegrationTest.testEmptyEntries()'><b>testEmptyEntries</b><br>Test class: application_tests.ExcelDataIntegrationTest</td>
+<td></td>
+<td>0</td>
+<td>application_tests.ExcelDataIntegrationTest@5e955596</td></tr>
+<tr>
+<td title='application_tests.ExcelDataIntegrationTest.testSingleEntry()'><b>testSingleEntry</b><br>Test class: application_tests.ExcelDataIntegrationTest</td>
+<td></td>
+<td>0</td>
+<td>application_tests.ExcelDataIntegrationTest@5e955596</td></tr>
+<tr>
+<td title='application_tests.ReportGeneratorTest.testUniqueCustomerCountByContract()'><b>testUniqueCustomerCountByContract</b><br>Test class: application_tests.ReportGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>application_tests.ReportGeneratorTest@1cab0bfb</td></tr>
+<tr>
+<td title='application_tests.ExcelDataIntegrationTest.testUniqueCustomerCountByContract()'><b>testUniqueCustomerCountByContract</b><br>Test class: application_tests.ExcelDataIntegrationTest</td>
+<td></td>
+<td>0</td>
+<td>application_tests.ExcelDataIntegrationTest@5e955596</td></tr>
+<tr>
+<td title='application_tests.ReportGeneratorTest.testUniqueCustomerCountByContract_duplicateEntries()'><b>testUniqueCustomerCountByContract_duplicateEntries</b><br>Test class: application_tests.ReportGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>application_tests.ReportGeneratorTest@1cab0bfb</td></tr>
+<tr>
+<td title='application_tests.ReportGeneratorTest.testUniqueCustomerCountByContract_emptyEntries()'><b>testUniqueCustomerCountByContract_emptyEntries</b><br>Test class: application_tests.ReportGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>application_tests.ReportGeneratorTest@1cab0bfb</td></tr>
+<tr>
+<td title='application_tests.ReportGeneratorTest.testUniqueCustomerCountByContract_singleEntry()'><b>testUniqueCustomerCountByContract_singleEntry</b><br>Test class: application_tests.ReportGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>application_tests.ReportGeneratorTest@1cab0bfb</td></tr>
+<tr>
+<td title='application_tests.ReportGeneratorTest.testUniqueCustomerCountByGeozone()'><b>testUniqueCustomerCountByGeozone</b><br>Test class: application_tests.ReportGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>application_tests.ReportGeneratorTest@1cab0bfb</td></tr>
+<tr>
+<td title='application_tests.ExcelDataIntegrationTest.testUniqueCustomerCountByGeozone()'><b>testUniqueCustomerCountByGeozone</b><br>Test class: application_tests.ExcelDataIntegrationTest</td>
+<td></td>
+<td>0</td>
+<td>application_tests.ExcelDataIntegrationTest@5e955596</td></tr>
+<tr>
+<td title='application_tests.ReportGeneratorTest.testUniqueCustomerCountByGeozone_duplicateEntries()'><b>testUniqueCustomerCountByGeozone_duplicateEntries</b><br>Test class: application_tests.ReportGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>application_tests.ReportGeneratorTest@1cab0bfb</td></tr>
+<tr>
+<td title='application_tests.ReportGeneratorTest.testUniqueCustomerCountByGeozone_emptyEntries()'><b>testUniqueCustomerCountByGeozone_emptyEntries</b><br>Test class: application_tests.ReportGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>application_tests.ReportGeneratorTest@1cab0bfb</td></tr>
+<tr>
+<td title='application_tests.ReportGeneratorTest.testUniqueCustomerCountByGeozone_singleEntry()'><b>testUniqueCustomerCountByGeozone_singleEntry</b><br>Test class: application_tests.ReportGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>application_tests.ReportGeneratorTest@1cab0bfb</td></tr>
+<tr>
+<td title='application_tests.ReportGeneratorTest.testUniqueCustomersByGeozone()'><b>testUniqueCustomersByGeozone</b><br>Test class: application_tests.ReportGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>application_tests.ReportGeneratorTest@1cab0bfb</td></tr>
+<tr>
+<td title='application_tests.ReportGeneratorTest.testUniqueCustomersByGeozone_duplicateEntries()'><b>testUniqueCustomersByGeozone_duplicateEntries</b><br>Test class: application_tests.ReportGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>application_tests.ReportGeneratorTest@1cab0bfb</td></tr>
+<tr>
+<td title='application_tests.ReportGeneratorTest.testUniqueCustomersByGeozone_emptyEntries()'><b>testUniqueCustomersByGeozone_emptyEntries</b><br>Test class: application_tests.ReportGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>application_tests.ReportGeneratorTest@1cab0bfb</td></tr>
+<tr>
+<td title='application_tests.ReportGeneratorTest.testUniqueCustomersByGeozone_singleEntry()'><b>testUniqueCustomersByGeozone_singleEntry</b><br>Test class: application_tests.ReportGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>application_tests.ReportGeneratorTest@1cab0bfb</td></tr>
+</table><p>
+</body>
+</html>
