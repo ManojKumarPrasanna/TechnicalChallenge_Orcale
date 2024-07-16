@@ -9,12 +9,12 @@ Steps To Execute TestNG Tests with Maven
   
 Project Overview 
 1. base
-DataEntry.Java - For handling different data types
+DataEntry.Java - For handling different data types;
 2. utilities
-CSVReader.java - For reading excel data from csv files
-DataParser.java - For parsing input string into entries
+CSVReader.java - For reading excel data from csv files;
+DataParser.java - For parsing input string into entries;
 ReportGenerator.java - For calculating uniqueCustomerCountByContract, uniqueCustomerCountByGeozone, averageBuildDurationByGeozone, uniqueCustomersByGeozone
 3. application_tests
-Application.java - Contains Main method with Input String
-ExcelDataIntegrationTest.java - TestNG class with few test methods for CSV file input
-ReportGeneratorTest.java - TestNG class with few test methods for Input String
+Application.java - Contains Main method with Input String;
+ExcelDataIntegrationTest.java - TestNG class with few test methods for CSV file input;
+ReportGeneratorTest.java - TestNG class with few test methods for Input String;
