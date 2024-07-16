@@ -2,24 +2,18 @@
 TechnicalChallenge_Orcale
 
 Steps To Execute TestNG Tests with Maven
-Clone repo - 
-  git clone <>
-  cd TechnicalChallenge_Orcale
-Maven Commands - 
-  mvn clean
-  mvn test 
-
+1. git clone https://github.com/ManojKumarPrasanna/TechnicalChallenge_Orcale.git
+2. cd TechnicalChallenge_Orcale
+3. mvn clean
+4. mvn test 
+  
 Project Overview 
 1. base
    DataEntry.Java - For handling different data types
 2. utilities
    CSVReader.java - For reading excel data from csv files
    DataParser.java - For parsing input string into entries
-   ReportGenerator.java - For calculating
-                           1. uniqueCustomerCountByContract
-                           2. uniqueCustomerCountByGeozone
-                           3. averageBuildDurationByGeozone
-                           4. uniqueCustomersByGeozone
+   ReportGenerator.java - For calculating uniqueCustomerCountByContract, uniqueCustomerCountByGeozone, averageBuildDurationByGeozone, uniqueCustomersByGeozone
 4. application_tests
    Application.java - Contains Main method with Input String
    ExcelDataIntegrationTest.java - TestNG class with few test methods for CSV file input
